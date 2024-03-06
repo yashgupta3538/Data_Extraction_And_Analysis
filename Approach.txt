@@ -1,0 +1,26 @@
+1. Data Extraction:
+   - Read the URLs from the provided Excel file (Input.xlsx).
+   - Utilize Python libraries such as requests and BeautifulSoup to fetch and parse the HTML content of each URL.
+   - Extract only the article title and text, excluding headers, footers, and other irrelevant content.
+   - Save the extracted article text into separate text files, naming each file with the corresponding URL_ID.
+
+2. Text Analysis:
+   - Perform sentiment analysis:
+     - Clean the text using stop words lists.
+     - Create dictionaries of positive and negative words.
+     - Calculate positive and negative scores, polarity score, and subjectivity score using predefined formulas.
+   - Analyze readability:
+     - Calculate average sentence length, percentage of complex words, and Fog Index.
+   - Compute average number of words per sentence, complex word count, word count, syllable count per word, personal pronouns count, and average word length according to the provided formulas.
+
+3. Output Generation:
+   - Save the computed variables for each article in the same order as specified in the output Excel file (Output Data Structure.xlsx).
+
+4. Error Handling and Validation:
+   - Implement error handling for invalid URLs or missing article text.
+   - Validate the data extraction and analysis to ensure accuracy and reliability.
+
+5. Documentation:
+   - Document the code appropriately for clarity and future reference.
+
+By following this approach, I extracted the textual data from the provided URLs, perform text analysis to compute the required variables, and generate the output in the specified format.
